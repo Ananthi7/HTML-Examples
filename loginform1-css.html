@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>loginform1-css</title>
+    <style>
+        .container {
+            height: 467px;
+            width: 315px;
+            margin: auto;
+            background-color: lightcyan;
+        }
+
+        .inbox {
+            height: 400px;
+            width: 279px;
+            padding-top: 10px;
+            margin: auto;
+            background-color: lightcyan;
+            margin-top: 11px;
+            border-radius: 16px;
+            box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            text-align: center;
+            margin-left: -31px;
+            color:rebeccapurple;
+        }
+
+        .text-div {
+
+            height: 80px;
+            width: 266px;
+            margin-top: 13px;
+            margin-left: 20px;
+        }
+
+        label {
+            font-size: 16px;
+            font-family: "Futura PT Medium", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+            color: rebeccapurple;
+        }
+
+        .input {
+
+            border: 1px solid lightcyan;
+            box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.2);
+            height: 31px;
+            width: 219px;
+            font-size: 14px;
+            color: red;
+            margin-top: 10px;
+            background-color: lightcyan;
+            border-radius: 15px;
+            padding-left: 5px;
+        }
+
+        .input::placeholder {
+            color: red;
+            font-size: 14px;
+        }
+
+        #password {
+            box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.2) inset;
+        }
+
+        #email {
+            box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.2) inset;
+        }
+
+        #subscribe {
+            cursor: pointer;
+            background-color: rebeccapurple;
+            color: white;
+            border: 2px solid black;
+            border-radius: 18px;
+            padding: 6px 15px;
+            margin-top: 12px;
+            width: 224px;
+            height: 38px;
+            margin-left: 20px;
+        }
+        p{
+            color:rebeccapurple;text-align: center;
+            cursor: pointer;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div class="container">
+        <h2>welcome aboard</h2>
+        <div class="inbox">
+            <form>
+                <div class="text-div">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" class="input"  required>
+                </div>
+                <div class="text-div">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" class="input" placeholder="your email">
+                </div>
+                <div class="text-div">
+                    <label for="password">password</label>
+                    <input type="text" id="password" class="input" value=".......">
+                </div>
+                <button type="submit" name="subscribe" id="subscribe">Sign In</button>
+            </form>
+            <p>Already have an account.?</p>
+        </div>
+    </div>
+    
+</body>
+
+</html>
